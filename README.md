@@ -22,4 +22,6 @@ Semidefinite Optimization
 
 Mathematica: https://github.com/yinhslin/catboot
 
+"Modular Bootstrap Revisited": https://link.springer.com/article/10.1007/JHEP09(2018)061
+
 "Bootstrapping Non-Invertible Symmetries" https://arxiv.org/abs/2302.13900
