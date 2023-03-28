@@ -10,21 +10,21 @@ C++: https://github.com/tzu-chen/Chain
 
 Summary: Compute the spectrum of a special (Haagerup) quantum spin chain, and examine scale (conformal) invariance in the long chain limit.
 
-Key techniques: (1) Lanczos algorithm for finding the smallest eigenvalues of matrix, (2) Factorization of dense matrix operators into series of sparse matrix operators, (3) Density matrix renormalization group (DMRG) which approximates the eigenvectors by matrix products.
+Key techniques: (1) Lanczos algorithm for finding the smallest eigenvalues of matrices, (2) Factorization of dense matrix operators into products of sparse matrix operators, (3) Density matrix renormalization group (DMRG) to approximate eigenvectors by "matrix product states".
 
 #
 
-*Semidefinite Optimization* and *Monte Carlo* Simulation of Lattice Spin System
+*Monte Carlo* Simulation and *Semidefinite Optimization* of Lattice Spin System (Close Connection to *Random Walk*)
 
 "Bootstrapping the Ising Model on the Lattice": https://arxiv.org/abs/2206.12538
 
-Summary: Constrain correlation functions by performing semidefinite optimization, and compare with Monte Carlo. Close connection between spin system and random walk.
+Summary: Bound correlation functions by performing semidefinite optimization, and compare with Monte Carlo.
 
-Key techniques: (1) Semidefinite programming, (2) Monte Carlo (Metropolis), (3) QR decomposition (numerically stable Gram-Schmidt).
+Key techniques: (1) Monte Carlo (Metropolis) simulation of correlation functions, (2) Semidefinite programming for deriving rigorous bounds, (3) QR decomposition (numerically stable Gram-Schmidt) to solve large systems of overly-constrained linear equations.
 
 #
 
-*Semidefinite Optimization* Refined by Category Theory
+*Semidefinite Optimization* of Low-Dimensional System using *Category Theory*
 
 Mathematica: https://github.com/yinhslin/catboot
 
@@ -32,9 +32,9 @@ Mathematica: https://github.com/yinhslin/catboot
 
 "Bootstrapping Non-Invertible Symmetries" https://arxiv.org/abs/2302.13900
 
-Summary: 
+Summary: Bound spectra of low-dimensional scale-invariant (conformal) systems using semidefinite optimization together with the underlying categorical structure described by fusion and modular tensor categories.
 
-Key techniques: (1) Semidefinite programming, (2) Category theory (fusion and modular tensor categories).
+Key techniques: (1) Semidefinite programming for deriving rigorous bounds, (2) Category theory describing symmetries of low-dimensional systems.
 
 #
 
@@ -46,4 +46,4 @@ Mathematica and Julia: https://github.com/yinhslin/bps-counting-code
 
 Summary: Reformulate the action of a non-linear operator into a matrix operator on large (up to 10^5 dimensional) vector spaces, compute the nullspace and column space of the matrix to find vectors describing black holes.
 
-Key techcniques: (1) QR decomposition (numerically stable Gram-Schmidt), (2) Combinatorics in building products of matrix traces, (3) Non-commutative algebraic manipulations.
+Key techcniques: (1) QR decomposition (numerically stable Gram-Schmidt) to reveal the rank of large matrices, (2) Heavy combinatorics in building products of matrix traces, while taking into account cyclicity and trace relations, (3) Non-commutative algebraic manipulations.
